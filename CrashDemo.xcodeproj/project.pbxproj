@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B044FF711DCC29F400DA4323 /* MMCrashSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = B044FF701DCC29F400DA4323 /* MMCrashSafe.m */; };
 		B05F8CE11DCC1C7E00E42CB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B05F8CE01DCC1C7E00E42CB2 /* main.m */; };
 		B05F8CE41DCC1C7E00E42CB2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B05F8CE31DCC1C7E00E42CB2 /* AppDelegate.m */; };
 		B05F8CE71DCC1C7E00E42CB2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B05F8CE61DCC1C7E00E42CB2 /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B044FF6F1DCC29F400DA4323 /* MMCrashSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMCrashSafe.h; sourceTree = "<group>"; };
+		B044FF701DCC29F400DA4323 /* MMCrashSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMCrashSafe.m; sourceTree = "<group>"; };
 		B05F8CDC1DCC1C7E00E42CB2 /* CrashDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrashDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B05F8CE01DCC1C7E00E42CB2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B05F8CE21DCC1C7E00E42CB2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +108,8 @@
 				B05F8CE31DCC1C7E00E42CB2 /* AppDelegate.m */,
 				B05F8CE51DCC1C7E00E42CB2 /* ViewController.h */,
 				B05F8CE61DCC1C7E00E42CB2 /* ViewController.m */,
+				B044FF6F1DCC29F400DA4323 /* MMCrashSafe.h */,
+				B044FF701DCC29F400DA4323 /* MMCrashSafe.m */,
 				B05F8CE81DCC1C7E00E42CB2 /* Main.storyboard */,
 				B05F8CEB1DCC1C7E00E42CB2 /* Assets.xcassets */,
 				B05F8CED1DCC1C7E00E42CB2 /* LaunchScreen.storyboard */,
@@ -279,6 +284,7 @@
 				B05F8CE71DCC1C7E00E42CB2 /* ViewController.m in Sources */,
 				B05F8CE41DCC1C7E00E42CB2 /* AppDelegate.m in Sources */,
 				B05F8CE11DCC1C7E00E42CB2 /* main.m in Sources */,
+				B044FF711DCC29F400DA4323 /* MMCrashSafe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +520,7 @@
 				B05F8D0B1DCC1C7E00E42CB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B05F8D0C1DCC1C7E00E42CB2 /* Build configuration list for PBXNativeTarget "CrashDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +529,7 @@
 				B05F8D0E1DCC1C7E00E42CB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B05F8D0F1DCC1C7E00E42CB2 /* Build configuration list for PBXNativeTarget "CrashDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +538,7 @@
 				B05F8D111DCC1C7E00E42CB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
